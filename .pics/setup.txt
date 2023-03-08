@@ -1,0 +1,1 @@
+You will need to enter the .pics folder and specify your desired background as well as the desired app icon. The background needs to be saves as "background1.jpg" and the icon must be saved as "icon2.ico". Note: If you do not exactly copy the file names the app won't run.
