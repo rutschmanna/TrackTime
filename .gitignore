@@ -5,8 +5,6 @@
 /build
 /dist
 *.spec
-*dim*.csv
-*dim*.xls
-*cdm*.csv
-*cdm*.xls
+*.csv
+*.xls
 *.exe
