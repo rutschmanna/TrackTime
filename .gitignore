@@ -1,3 +1,11 @@
 /.ipynb_checkpoints
 /.pics
 *.ipynb
+/build
+/dist
+*.spec
+*dim*.csv
+*dim*.xls
+*cdm*.csv
+*cdm*.xls
+*.exe

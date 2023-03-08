@@ -1,7 +1,12 @@
 # TrackTime
 Official GitHub Repo of the TrackTime personal time tracking and scheduling app for Microsoft Windows 11.
 
-# Run the App
+# Installation
+## Setup
+You will need to enter the .pics folder and specify your desired background as well as the desired app icon. The background needs to be saves as "background1.jpg" and the icon must be saved as "icon2.ico".
+Note: If you do not exactly copy the file names the app won't run.
+
+## Run the App
 1. Via .exe
 Open the .exe file and you are promted to enter the name of your current task (eg. my_personal_project). Confirm by pressing the enter-button. The app creates a new timetable with that name and the current month if there is no such timetable already existing. Otherwise it will load the respective timetable and add your trackings to it.
 Sadly there is no way to customize the app if you use the .exe approach.

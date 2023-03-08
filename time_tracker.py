@@ -15,16 +15,16 @@ def new_sheet():
     total_row = {"date" : time.strftime('%B_%y', time.localtime()).lower(), "total" : 0}
     df = pd.concat([df, pd.DataFrame([total_row])], axis = 0, ignore_index = True)
     # Safe the df if it's the first time
-    df.to_csv(f"timesheets/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv",
+    df.to_csv(f"timesheets_csv/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv",
              index = False)
     
 # First I try to load the sheet of the current month but if that fails it creates a new sheet and loads that
 def load_sheet():
     try:
-        return pd.read_csv(f"timesheets/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv")
+        return pd.read_csv(f"timesheets_csv/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv")
     except:
         new_sheet()
-        return pd.read_csv(f"timesheets/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv")
+        return pd.read_csv(f"timesheets_csv/timesheet_{sheet_spec}_{time.strftime('%B', time.localtime()).lower()}.csv")
 
 # Now for the tkinter app and interface
 # Create the window using a "modern" look
