@@ -7,3 +7,4 @@
 *.spec
 *.csv
 *.xls
+*linux.py
