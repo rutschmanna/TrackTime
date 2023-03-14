@@ -5,6 +5,9 @@
 /build
 /dist
 *.spec
+/timesheets_csv
 *.csv
+/timesheets_xls
 *.xls
+*.xlsx
 *linux.py
