@@ -1,4 +1,4 @@
-/.ipynb_checkpoints
+.ipynb_checkpoints/
 *.ipynb
 /build
 /dist
@@ -7,3 +7,4 @@
 *.xls
 *.xlsx
 *private.py
+tracktime_setup.txt
