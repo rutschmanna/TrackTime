@@ -1,6 +1,4 @@
 /.ipynb_checkpoints
-*.jpg
-*.ico
 *.ipynb
 /build
 /dist
@@ -8,4 +6,4 @@
 *.csv
 *.xls
 *.xlsx
-*linux.py
+*private.py
